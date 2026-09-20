@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Databases & local logs
+*.db
+*.sqlite3
+webui.db
+runs/*.log
+!runs/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/.npm/
+frontend/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dist: Keep frontend/dist for plug-and-play execution without Node.js
+!frontend/dist/
+!frontend/dist/**
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Checkpoint binaries
+*.pt
+*.pth
