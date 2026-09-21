@@ -1,6 +1,6 @@
 # Microduck RL WebUI
 
-> 基于 [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) 的训练与推理可视化 Web 界面（非官方社区工具，与 Pollen Robotics 无关联）。
+> 基于 [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) 的训练与推理可视化 Web 界面。
 
 ---
 
